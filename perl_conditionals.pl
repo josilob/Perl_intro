@@ -1,3 +1,10 @@
+use strict;
+use warnings;
+use diagnostics;
+
+use feature 'say';
+use v5.16;
+
 # Perl considers undef, 0, 0.0, "" and "0" to be false
 # operators: ==, !=, >, >=, <, <=
 # Boolean operators: !, &&, ||
